@@ -5,6 +5,6 @@ __pycache__/
 .venv/
 # produced by the pipeline, never committed
 model/
-metrics.json
+/metrics.json
 test-results.xml
 server.log
