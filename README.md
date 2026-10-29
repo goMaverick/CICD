@@ -1,3 +1,5 @@
+[![ci](https://github.com/goMaverick/CICD/actions/workflows/ci.yml/badge.svg)](https://github.com/goMaverick/CICD/actions/workflows/ci.yml)
+
 # fraud-ci-cd
 
 A card-fraud scoring service with an automated pipeline (MAAI 903, Lesson 6 / Workshop 6).
