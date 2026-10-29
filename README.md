@@ -39,3 +39,4 @@ Or run all `run:` steps of the workflow in order: `python ci/run_local.py`
 | `Dockerfile` | the image: base, pinned libraries, code, model, non-root user, health check |
 | `.github/workflows/ci.yml` | the GitHub Actions pipeline |
 | `.github/dependabot.yml` | weekly pull requests for new action and package versions |
+# CICD
