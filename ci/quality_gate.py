@@ -11,7 +11,7 @@ import os
 import sys
 
 MIN_TEST_RECALL = 0.60          # a fraud model that misses 4 in 10 frauds is not shippable
-MIN_TEST_PRECISION = 0.10       # below this the review team drowns in false alarms
+MIN_TEST_PRECISION = 0.2       # below this the review team drowns in false alarms
 F1_TOLERANCE = 0.03             # allowed drop in F1 against the approved baseline
 MIN_SLICE_RECALL = {"foreign": 0.50, "domestic": 0.40}   # no group may be left behind
 MIN_SLICE_FRAUD_ROWS = 10       # below this many frauds a slice score is too noisy to enforce
